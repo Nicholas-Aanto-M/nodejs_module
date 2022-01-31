@@ -1,15 +1,10 @@
-// function addNumber(a, b) {
-//   return a + b;
-// }
+//const util = require("./utils");
+const stringutil = require("./string");
 
-// const addNumber = function (a, b) {
-//   return a + b;
-// };
+// const addValue = util.addNumber(12, 10);
+// const subValue = util.addNumber(12, 10);
+// console.log("Add Value = " + addValue, "Sub Value = " + subValue);
+// console.log(util.PI);
 
-const addNumber = (a, b) => {
-  return a + b;
-};
-
-const addValue = addNumber(12, 10);
-
-console.log(addValue);
+const str1 = stringutil.UpperCase("anto");
+console.log(str1);
